@@ -1,0 +1,24 @@
+main handle = 796ca623-ef13-4aa5-82fc-58065232c7c8
+main title= WebDriver
+
+session ID = 75b0261f-03fb-42bf-872a-485df58d0a0a
+handles count = 2
+loop handle = 796ca623-ef13-4aa5-82fc-58065232c7c8
+loop handle = 64a13212-488d-4e27-bcce-05f6523ac5f2
+Found the window with handle = 64a13212-488d-4e27-bcce-05f6523ac5f2
+getDriverHandle(): currHandle = 64a13212-488d-4e27-bcce-05f6523ac5f2
+getDriverHandle(): currTitle =  Inventory                                                                                                                                                                                                                                                                                                                                                                                                                
+
+Title inventory window = Inventory                                                                                                                                                                                                                                                                                                                                                                                                                
+
+session ID = 75b0261f-03fb-42bf-872a-485df58d0a0a
+handles count = 3
+loop handle = 796ca623-ef13-4aa5-82fc-58065232c7c8
+loop handle = 64a13212-488d-4e27-bcce-05f6523ac5f2
+loop handle = 9a329b11-8b71-4d6b-bd5b-5ef511016104
+Found the window with handle = 9a329b11-8b71-4d6b-bd5b-5ef511016104
+getDriverHandle(): currHandle = 9a329b11-8b71-4d6b-bd5b-5ef511016104
+getDriverHandle(): currTitle =  Audit text
+
+Title after = Audit text
+

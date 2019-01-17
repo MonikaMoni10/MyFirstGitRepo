@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="SwtFixtureDocumentor.xsl" ?>
+<ui application="" applicationfullname="" category="" menuName="" description="Flipkart" name="" schemaVersion="1.0.0.0">
+
+	<form definitionID="frmFlipkart" existenceValidationWidget="electronics"
+		name="frmFlipkart" type="main">
+		<!-- <widget description="Electronics Menu" id="submenu_electronics" name="electronics" type="genericButton" />-->
+		<widget description="Electronics Menu" id="//div[@id='fk-mainhead-id']/div[2]/div/div/ul/li[1]/a/span" name="electronics" type="genericButton" />
+			<widget description="Motorola Sub Menu" id="//*[@id='menu-electronics-tab-0-content']/ul[1]/li[2]/a" name="motorola"
+			type="genericButton" />
+			
+			
+			<widget description="Men Menu" id="//div[@id='fk-mainhead-id']/div[2]/div/div/ul/li[2]/a/span" name="men" type="genericButton" />
+			<widget description="Boots Sub Menu" id="//*[@id='menu-men-tab-0-content']/ul[1]/li[8]/a" name="boots"
+			type="genericButton" />	
+	</form>
+
+</ui>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="SwtFixtureDocumentor.xsl" ?>
+<ui application="" applicationfullname="" category="" menuName="" description="Flipkart" name="" schemaVersion="1.0.0.0">
+<!-- <widget description="" id="" name="" type="" /> -->
+	<form definitionID="frmLogin" existenceValidationWidget="loginButton"
+		name="loginForm" type="main">
+		
+		<widget description="Login User ID" id="Username" name="username" type="genericTextBox" />
+		<widget description="Login Password" id="Password" name="password" type="genericTextBox" />
+		<widget description="Login Button" id="idButtonUpdate" name="loginButton" type="genericButton" />
+			
+			
+		<widget description="Booking Menu" id="//div[@id='qm1']/a[2]" name="booking" type="genericButton" />
+		<widget description="New Booking" id="//div[@id='qm1']/div[2]/a[1]" name="newBooking" type="genericButton" />
+		<widget description="Market Type drop down" id="AMT" name="marketType" type="cnaListBox" />
+		<widget description="Proceed button" id="ProceedBtn" name="proceed" type="genericButton" />
+		<widget description="Search button" id="SearchButton" name="search" type="genericButton" />
+		
+		<!-- Inclusive search page -->
+		<widget description="No of days" id="NONIGHTS" name="stays" type="genericTextBox" />
+		<widget description="Start Date text box" id="ST_DT" name="startDate" type="genericTextBox" />
+		<widget description="Depart from" id="DP_CD" name="departFrom" type="genericTextBox" />
+		<widget description="Return To" id="AR_CD" name="returnTo" type="genericTextBox" />
+		<widget description="Promotion code text box" id="PROM_CD" name="promotionCode" type="genericTextBox" />
+		<widget description="Country drop down" id="CTY1_ID" name="countryDropDown" type="cnaListBox" />
+		<widget description="Accm" id="STC_CD" name="accm" type="genericTextBox" />
+		<widget description="Supplier" id="SPR_CD" name="supplier" type="genericTextBox" />
+		<!--  INCLUSIVE FLIGHTS Screen -->
+		<widget description="Procced Button" id="proceedButtonBottom" name="proceedButton" type="genericButton" />
+		
+		<!--  ROOM LIST Screen -->
+		<widget description="ROOM LIST text box" id="I_1_RM_QTY" name="roomListTextBox" type="genericTextBox" />
+		
+		<!--  FLIGHT EXTRAS Screen -->
+		<widget description="Procced Button Flight Extras" id="ProceedButton" name="proccedButtFlightExtras" type="genericButton" />
+		
+		<!-- SERVICE SETS Screen -->
+		<widget description="Procced Button in SERVICE SETS Screen " id="ProceedBtn2" name="proccedButtService" type="genericButton" />
+		
+		<!-- NEW OVERVIEW Screen -->
+		<widget description="Book BUtton" id="bookBtn" name="bookButton" type="genericButton" />
+		<widget description="overLayUpdateButton" id="overlay_updateButton" name="overLayUpdateButton" type="genericButton" />
+	
+		<!-- AMEND NAMES Screen -->
+		<widget description="Type1" id="I_-1_PAX_TP" name="type1" type="cnaListBox" />
+		<widget description="Type2" id="I_-2_PAX_TP" name="type2" type="cnaListBox" />
+		<widget description="Title1" id="I_-1_PAX_TITLE" name="title1" type="cnaListBox" />
+		<widget description="Title2" id="I_-2_PAX_TITLE" name="title2" type="cnaListBox" />
+		<widget description="Gender1" id="I_-1_PAX_GNDR" name="gen1" type="cnaListBox" />
+		<widget description="Gender2" id="I_-2_PAX_GNDR" name="gen2" type="cnaListBox" />
+		
+		<widget description="First Name1" id="I_-1_PAX_FN" name="firstName1" type="genericTextBox" />
+		<widget description="First Name2" id="I_-2_PAX_FN" name="firstName2" type="genericTextBox" />
+		<widget description="SurName1" id="I_-1_PAX_SN" name="surname1" type="genericTextBox" />
+		<widget description="SurName2" id="I_-2_PAX_SN" name="surname2" type="genericTextBox" />	
+		<widget description="DOB Text box1" id="I_-1_PAX_DOB" name="dob1" type="genericTextBox" />		
+		<widget description="DOB Text box2" id="I_-2_PAX_DOB" name="dob2" type="genericTextBox" />
+		<widget description="Addredd 1" id="I_3_ADD1" name="address1" type="genericTextBox" />
+		<widget description="Addredd 2" id="I_3_ADD2" name="address2" type="genericTextBox" />
+		<widget description="Home Email" id="I_3_H_EMAIL" name="homeMail" type="genericTextBox" />
+		
+		<widget description="Postal code" id="I_3_ADDPC" name="postalCode" type="genericTextBox" />
+		<widget description="Update button" id="UpdateBtn" name="updateButtonAmendScreen" type="genericButton" />
+		<widget description="Mobile Number Text Box" id="I_3_M_PHONE" name="mobile" type="genericTextBox" />		
+		
+		<widget description="LogOff button" id="//div[@id='qm1']/a[4]" name="logOff" type="genericButton" />				
+		<widget description="Maintenance Drop Down" id="//div[@id='qm1']/a[1]" name="maintenance" type="genericButton" />
+		<widget description="Stock" id="//div[@id='qm1']/div[1]/a[3]" name="stock" type="genericButton" />
+		<widget description="Selling Tab" id="//div[@id='qm0']/a[5]" name="selling" type="genericButton" />
+		<widget description="Selling Accommodation" id="//div[@id='qm0']/div[5]/a[1]" name="selacm" type="genericButton" />
+		<widget description="Accommodation Text Box" id="I_2_STC_STK_CD" name="acmTxtBox" type="genericTextBox" />
+		
+		<widget description="Accm first option" id="//table[@id='ACC']/tbody/tr[1]/td[1]/a" name="acm1" type="genericButton" />
+		<widget description="Accm Unit list" id="//table[@id='UNIT']/tbody/tr[1]/td[2]/a" name="acm2" type="genericButton" />
+		<widget description="Alt Sub tab" id="//div[@id='tabContainer']/ul/li[3]/a" name="altsub" type="genericButton" />
+		<widget description="Unit tab" id="//div[@id='tabContainer']/ul/li[1]/a" name="unit" type="genericButton" />
+		<widget description="Inventory button" id="idInventoryButton" name="inv" type="genericButton" />
+		
+		<widget description="Plus" id="InvSubDet_7" name="plus" type="genericButton" />
+		
+		<widget description="Decline Insurance Button" id="//form[@id='frmSubmit']/fieldset[2]/ul/li/input[1]"
+		name="declineButton" type="genericButton" />
+	</form>
+	
+	<form definitionID="frmSource" existenceValidationWidget="updateSourceFrame"
+		name="frmSource" type="popup">
+		<widget description="Source Code" id="I_2_SRC_CD" name="sourceCode" type="cnaListBox" />
+		<widget description="Source Sub Code" id="I_2_SRC_SUB_CD" name="sourceSubCode" type="cnaListBox" />
+		<widget description="UpdateButton" id="SavButton" name="updateSourceFrame" type="genericButton" />
+	</form>
+	
+	<form definitionID="frmNew" existenceValidationWidget="days"
+		name="frmSubmit" type="popup">
+		
+		<widget description="Monday check box" id="I_3_MON_UPD" name="mck" type="genericCheckBox" />
+		<widget description="close button" id="idCloseButton" name="clb" type="genericButton" />
+		
+		<widget description="Days text box" id="I_3_INV_DUR" name="days" type="genericTextBox" />		
+	</form>
+	
+
+</ui>

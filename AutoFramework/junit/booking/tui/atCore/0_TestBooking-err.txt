@@ -1,0 +1,4 @@
+Started InternetExplorerDriver server (64-bit)
+2.48.0.0
+Listening on port 7165
+
