@@ -4,4 +4,8 @@ modification to learn checkout(delete)
 
 my 3rd message
 
+<<<<<<< HEAD
 this is my master branch
+=======
+are you an automation engineer
+>>>>>>> automation
