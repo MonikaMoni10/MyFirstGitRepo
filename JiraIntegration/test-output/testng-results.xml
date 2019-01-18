@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="118023" started-at="2019-01-02T09:49:03Z" finished-at="2019-01-02T09:51:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="118023" started-at="2019-01-02T09:49:03Z" finished-at="2019-01-02T09:51:01Z">
+      <class name="com.Driver.Driver">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Driver.Driver@55b7a4e0]" name="openBrowser" is-config="true" duration-ms="3125" started-at="2019-01-02T15:19:03Z" finished-at="2019-01-02T15:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="TC_01()[pri:0, instance:com.Driver.Driver@55b7a4e0]" name="TC_01" duration-ms="28374" started-at="2019-01-02T15:19:06Z" finished-at="2019-01-02T15:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.Driver.Driver@55b7a4e0]" name="exit" is-config="true" duration-ms="1122" started-at="2019-01-02T15:19:34Z" finished-at="2019-01-02T15:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Driver.Driver@55b7a4e0]" name="openBrowser" is-config="true" duration-ms="2601" started-at="2019-01-02T15:19:35Z" finished-at="2019-01-02T15:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="TC_02()[pri:0, instance:com.Driver.Driver@55b7a4e0]" name="TC_02" duration-ms="39733" started-at="2019-01-02T15:19:38Z" finished-at="2019-01-02T15:20:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[test assert failure' DOES NOT match with actual value 'false]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: test assert failure' DOES NOT match with actual value 'false
+	at com.testng.SonnetTestNGAssertions.throwException(SonnetTestNGAssertions.java:279)
+	at com.testng.SonnetTestNGAssertions.equals(SonnetTestNGAssertions.java:77)
+	at com.pom.OrangehrmLogin.AssertFail(OrangehrmLogin.java:35)
+	at com.Driver.Driver.TC_02(Driver.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02 -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.Driver.Driver@55b7a4e0]" name="exit" is-config="true" duration-ms="1122" started-at="2019-01-02T15:20:18Z" finished-at="2019-01-02T15:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Driver.Driver@55b7a4e0]" name="openBrowser" is-config="true" duration-ms="2580" started-at="2019-01-02T15:20:19Z" finished-at="2019-01-02T15:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="TC_03()[pri:0, instance:com.Driver.Driver@55b7a4e0]" name="TC_03" duration-ms="38200" started-at="2019-01-02T15:20:21Z" finished-at="2019-01-02T15:21:00Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[By.selector: .panelTrigger  - element NOT found...
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'BG4WS1416', ip: '172.29.74.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: Driver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: By.selector: .panelTrigger  - element NOT found...
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'BG4WS1416', ip: '172.29.74.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: Driver
+	at test.webdriver.SonnetAction.getAttribute(SonnetAction.java:528)
+	at com.pom.OrangehrmLogin.InvalidPassword(OrangehrmLogin.java:26)
+	at com.Driver.Driver.TC_03(Driver.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03 -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.Driver.Driver@55b7a4e0]" name="exit" is-config="true" duration-ms="1135" started-at="2019-01-02T15:21:00Z" finished-at="2019-01-02T15:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.Driver.Driver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
