@@ -1,5 +1,3 @@
 this is my foruth commit in github
 
 modification to learn checkout(delete)
-
-commit revert practice
